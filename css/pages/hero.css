@@ -1,0 +1,90 @@
+.hero div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 50px;
+}
+
+.hero div h4{
+    letter-spacing: 15px;
+}
+
+.hero div h1{
+    font-size: 100px;
+    letter-spacing: 5px;
+    line-height: 150px;
+}
+
+
+.hero div p{
+    font-size: 20px;
+}
+
+
+.hero div p span{
+    font-size: 20px;
+    color: rgb(192, 192, 192);
+}
+
+.hero div span{
+    color: blueviolet;
+}
+
+.hero .hero__btn{
+    display: flex;
+    flex-direction: row
+}
+
+.hero__btn{
+    display: flex;
+    gap: px;
+}
+
+.hero__btn .hero__btn2{
+    background-color: rgba(129, 129, 129, 0.85)
+
+}
+
+.ddd{
+    padding: 50px;
+}
+
+.ddd .hero__btn2{
+    border: 1px solid rgb(180, 180, 180);
+    padding: 30px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.hero__btn button{
+    padding: 36px 10px 36px;
+    background-color: rgba(163, 86, 240,.9);
+
+    border-radius: 10px;
+    border: 1px solid #b572f8;
+
+    transition: all 400ms ease;
+}
+
+.hero__btn button:hover{
+    background-color: rgba(132, 15, 250, 0.9);
+    border: 1px solid #482d63;
+
+    padding:40px;
+
+    cursor: pointer;
+    transform: rotateX('90');
+}
+
+.hero .hero__btn a{
+    color: white;
+
+    padding: 50px;
+    transition: all 400ms ease;
+}
+
+.hero .hero__btn a:hover{
+    color: white;
+}

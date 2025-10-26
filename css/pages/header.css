@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+}
+
+
+.header__nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+.header__nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header__nav ul li a{
+    transition: all 400ms ease;
+}
+
+.header__nav ul li a:hover{
+    color: gray;
+}
+
+
+
+.header__social{
+    display: flex;
+    justify-content: end;
+}
+
+.header__social ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header__social ul li a{
+    transition: all 400ms ease;
+}
+
+.header__social ul li a:hover{
+    color: gray;
+}
