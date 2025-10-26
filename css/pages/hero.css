@@ -38,8 +38,8 @@
 }
 
 .hero__btn{
-    display: flex;
-    gap: px;
+    position: relative;
+    bottom: 60px;
 }
 
 .hero__btn .hero__btn2{
